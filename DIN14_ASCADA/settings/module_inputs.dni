@@ -1,0 +1,76 @@
+[TraceHelper]
+Enabled=0
+ShowSource=1
+[DebugChecksum]
+Checksum=-909797152
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[InstructionProfiling]
+Enabled=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[Profiling]
+Enabled=0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[array_types]
+Fmt0=unsigned char[3]	1	0
+Fmt1=unsigned char[4]	1	0
+Fmt2=unsigned char[64]	4	0
+Fmt3=unsigned char[8]	4	0
+Fmt4=unsigned int[32]	4	0
+[watch_formats]
+Fmt0={W}0:UBRR0H	4	0
+Fmt1={W}0:UBRR0L	4	0
+Fmt2={W}0:adr	4	0
+Fmt3={W}0:crc	4	0
+Fmt4={W}0:data	4	0
+Fmt5={W}0:quantity	4	0
+Fmt6={W}0:ubrr	3	0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus.c}.162.4" 1 0 0 0 "" 0 ""
+Count=1
+[Aliases]
+A0=_ "D:\PROJECT\AVR\ASCADA_MODULES\DIN14_ASCADA\main.c" "E:\PROJECTs\AVR\ASCADA_MODULES\DIN14_ASCADA\main.c"
+A1=_ "D:\PROJECT\AVR\ASCADA_Modules\ascada_modules\ASCADA_MODULES\LIB_BLINK\blink.c" "E:\PROJECTs\AVR\ASCADA_Modules\ascada_modules\ASCADA_MODULES\LIB_BLINK\blink.c"
+A2=_ "D:\PROJECT\AVR\CNC_MODULES\MODULES\DINPUTS\main.c" ""
+A3=_ "E:\PROJECTs\AVR\ASCADA_MODULES\DIN14_ASCADA\main.c" "D:\PROJECT\AVR\ASCADA_Modules\ascada_modules\ASCADA_MODULES\DIN14_ASCADA\main.c"
+A4=_ "E:\PROJECTs\AVR\ASCADA_MODULES\LIB_BLINK\blink.c" "D:\PROJECT\AVR\ASCADA_Modules\ascada_modules\ASCADA_MODULES\LIB_BLINK\blink.c"
+A5=_ "E:\PROJECTs\AVR\ASCADA_Modules\ascada_modules\ASCADA_MODULES\DIN14_ASCADA\main.c" "D:\PROJECT\AVR\ASCADA_Modules\ascada_modules\ASCADA_MODULES\DIN14_ASCADA\main.c"
+A6=_ "E:\PROJECTs\AVR\ASCADA_Modules\ascada_modules\ASCADA_MODULES\LIB_BLINK\blink.c" "D:\PROJECT\AVR\ASCADA_Modules\ascada_modules\ASCADA_MODULES\LIB_BLINK\blink.c"
+A7=_ "E:\PROJECTs\AVR\CNC_MODULES\MODULES\DINPUTS\main.c" "D:\PROJECT\AVR\CNC_MODULES\MODULES\DINPUTS\main.c"
+Count=8
+SuppressDialog=1

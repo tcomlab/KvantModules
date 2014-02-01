@@ -1,0 +1,36 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-2000331550
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[array_types]
+Fmt0=unsigned char[8]	1	0
+[watch_formats]
+Fmt0={W}0:start_state	1	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Count=0
+[Aliases]
+A0=_ "D:\PROJECT\AVR\ASCADA_Modules\ascada_modules\ASCADA_MODULES\DOUT14_ASCADA\main.c" ""
+Count=1
+SuppressDialog=0

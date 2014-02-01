@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2710076024</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus_crc.c</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus.c</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIB_BLINK\blink.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\module_termopare.eep</file>
+      <file>$PROJ_DIR$\Debug\Obj\modbus.r90</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\inavr.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdbool.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\modbus.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl1s-ec_mul.r90</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIB_BLINK\blink.h</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom88.inc</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg1soim.xcl</file>
+      <file>$PROJ_DIR$\Debug\Exe\module_termopare.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\modbus_crc.r90</file>
+      <file>$TOOLKIT_DIR$\inc\iom88.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\modbus_crc.pbi</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm88.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\hardware.h</file>
+      <file>$TOOLKIT_DIR$\inc\comp_a90.h</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus_crc.h</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus.h</file>
+      <file>$TOOLKIT_DIR$\inc\ina90.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\blink.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\module_termopare.d90</file>
+      <file>$PROJ_DIR$\..\LIB_SH\main.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\module_termopare.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\blink.r90</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 32 23 0 19 30 15 11 27 14 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 23 0 19 30 15 11 27 14 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus_crc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 32 23 0 19 30 15 11 27 7 10 26 14 28 8 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\LIB_SH\LIB_BLINK\blink.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 14 32 23 0 19 30 15 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 32 23 0 19 30 15 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 17 5 31</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\module_termopare.d90</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 17 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 22 16 34 20 6 18 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\module_termopare.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 29 9 12 21</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

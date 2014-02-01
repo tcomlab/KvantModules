@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\DT14_ASCADA\module_digital_temperature.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\EN2_ASCADA\module_encoder.ewp</path>
+    <scc>
+      <provider>Subversion</provider>
+      <projname>notused</projname>
+      <auxprojpath>notused</auxprojpath>
+    </scc>
+  </project>
+  <project>
+    <path>$WS_DIR$\DIN14_ASCADA\module_inputs.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\DOUT14_ASCADA\module_output.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\TP2_ASCADA\module_termopare.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

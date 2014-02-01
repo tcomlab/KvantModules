@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3716498953</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus_crc.c</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_ONEWIRE\ds18x20.c</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus.c</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_ONEWIRE\crc8.c</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_ONEWIRE\onewire.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIB_BLINK\blink.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\ds18x20.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\blink.r90</file>
+      <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom88.inc</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-1s-ec_mul-n.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-1s-ec_mul-n.r90</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus_crc.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_ONEWIRE\ds18x20.h</file>
+      <file>$PROJ_DIR$\..\LIB_SH\main.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\modbus_crc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_ONEWIRE\onewire.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\onewire.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\module_digital_temperature.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\onewire.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\modbus.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
+      <file>$PROJ_DIR$\Debug\Exe\module_digital_temperature.d90</file>
+      <file>$PROJ_DIR$\Debug\Obj\ds18x20.r90</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIB_BLINK\blink.h</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc8.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\modbus.pbi</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_ONEWIRE\crc8.h</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm88.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\modbus_crc.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc8.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\iom88.h</file>
+      <file>$TOOLKIT_DIR$\inc\comp_a90.h</file>
+      <file>$TOOLKIT_DIR$\inc\ina90.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\blink.pbi</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg1soim.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\inavr.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\module_digital_temperature.eep</file>
+      <file>$PROJ_DIR$\Debug\Exe\module_digital_temperature.hex</file>
+      <file>$PROJ_DIR$\hardware.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus_crc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\LIB_SH\LIBS_ONEWIRE\ds18x20.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 29 25 15 9 46 28 11 12 24 16 20 10 19 18 17 26 23 13 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 25 15 9 46 28 11 12 24 16 20 10 19 18 17 26 23 13 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 25 15 9 46 28 11 12 38 14 20 10 19 18 17 26 23 13 22 37 48 51 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 15 9 46 28 11 12 38 14 20 10 19 18 17 26 23 13 22 37 48 51 47</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\LIB_SH\LIBS_ONEWIRE\crc8.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\LIB_SH\LIBS_ONEWIRE\onewire.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 29 25 15 9 46 28 11 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 25 15 9 46 28 11 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 25 15 9 46 28 11 12 38 37 29 24 16 20 10 19 18 17 26 23 13 54 14</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 15 9 46 28 11 12 38 37 29 24 16 20 10 19 18 17 26 23 13 54 14</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\LIB_SH\LIB_BLINK\blink.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 37 25 15 9 46 28 11 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 25 15 9 46 28 11 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\module_digital_temperature.d90</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 31 53 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 43 50 8 40 36 34 33 44 32 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 31 53 52 35</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+

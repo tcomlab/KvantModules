@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2040748980</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus.c</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus_crc.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIB_BLINK\blink.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\modbus.s90</file>
+      <file>$PROJ_DIR$\Debug\Obj\modbus.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\main.s90</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\modbus_crc.r90</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-1s-ec_mul-n.h</file>
+      <file>$PROJ_DIR$\Debug\List\blink.s90</file>
+      <file>$PROJ_DIR$\Debug\Obj\modbus.r90</file>
+      <file>$PROJ_DIR$\Debug\Exe\module_output.d90</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIB_BLINK\blink.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\blink.r90</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus_crc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\modbus_crc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\comp_a90.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\inavr.h</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$TOOLKIT_DIR$\inc\ina90.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom48.inc</file>
+      <file>$PROJ_DIR$\Debug\List\modbus_crc.lst</file>
+      <file>$PROJ_DIR$\Debug\Obj\blink.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\LIB_SH\main.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\module_output.eep</file>
+      <file>$PROJ_DIR$\hardware.h</file>
+      <file>$PROJ_DIR$\Debug\List\modbus.lst</file>
+      <file>$PROJ_DIR$\Debug\List\blink.lst</file>
+      <file>$PROJ_DIR$\Debug\List\main.lst</file>
+      <file>$PROJ_DIR$\Debug\List\modbus_crc.s90</file>
+      <file>$TOOLKIT_DIR$\inc\iom48.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-1s-ec_mul-n.r90</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg1soim.xcl</file>
+      <file>$PROJ_DIR$\Debug\Exe\module_output.hex</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm48.xcl</file>
+      <file>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 5 39 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 36 18 31 43 29 32 35 48 23 25 19 26 10 20 22 21 27 16 14 30 28 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 18 31 43 29 32 35 48 23 25 19 26 10 20 22 21 27 16 14 30 28 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\LIB_SH\LIBS_MODBUS\modbus_crc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 42 33 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 7 41 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 36 18 31 43 29 32 35 48 14 23 25 19 26 10 20 22 21 27 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 18 31 43 29 32 35 48 14 23 25 19 26 10 20 22 21 27 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\LIB_SH\LIB_BLINK\blink.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 11 40 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 14 36 18 31 43 29 32 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 36 18 31 43 29 32 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\module_output.d90</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 46 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 47 45 15 8 12 9 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 46 37 13</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+
